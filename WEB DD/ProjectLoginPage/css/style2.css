@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: content-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(4, 4, 4);
+
+}
+    form{
+    margin: auto;
+    width: 30rem;
+    background-color: rgba(247, 248, 250, 0.047);
+    height: 40rem;
+    padding: 2.5rem;
+    border-radius: 4rem;
+    box-shadow: 1px 1px 35px 20px rgba(184, 240, 253, 0.88);
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    
+}
+
+form:hover{
+    margin: auto;
+    width: 30rem;
+    margin-top: 3rem;
+    background-color: rgba(247, 248, 250, 0.047);
+    height: 40rem;
+    padding: 2.5rem;
+    border-radius: 4rem;
+    box-shadow: 1px 1px 40px 20px rgba(250, 147, 219, 0.88);
+    
+    color: white;
+}
+input {
+    border: transparent;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid white;
+    width: 15rem;
+    padding-left: 2rem;
+    
+}
+
+.Reg-button{
+    background-color: rgb(56, 134, 242);
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    border: transparent;
+    font-size: 1rem;
+    color: azure;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+    
+    }
+    .Reg-button:hover{
+        font-size: 1.3rem;
+    }
+
+   select{
+        padding: rem;
+        margin: 1rem;
+        opacity: 0.4;
+        font-size: small;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    select{
+        background-color: transparent;
+        color: white;
+        padding: 0.4rem;
+        border: 1px solid white;
+    }
+
+    textarea{
+       
+
+        border: transparent;
+        padding: 0.5rem;
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border-bottom: 1px solid white;
+        width: 15rem;
+        padding-left: 2rem;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(82, 67, 247);
+    }
+    a:hover{
+        font-size: 1rem;
+        background-color: rgba(248, 250, 251, 0.85);
+        border-radius: 1px;
+        padding: 0.5rem;
+    }

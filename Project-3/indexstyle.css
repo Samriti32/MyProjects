@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav div ul li {
+    list-style: none;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: #005f73; /* A calming blue shade */
+    font-size: 1rem;
+}
+
+.main {
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+
+.main div {
+    color: #005f73; /* Matching the link color for consistency */
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main button {
+    text-align: center;
+    border: 2px solid #023047; /* A deeper blue for contrast */
+    color: white;
+    background-color: #2a9d8f; /* A soft green for actions */
+    padding: 1rem 1.9rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+header nav button {
+    color: white;
+    background-color: #2a9d8f; /* Consistent with the main button color */
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #023047; /* Deep blue border */
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+footer img {
+    position: fixed;
+    bottom: 4%;
+    left: 90%;
+    width: 10%;
+}

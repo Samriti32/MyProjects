@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    gap: 4rem;
+}
+nav div ul li{
+
+    list-style: none;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1rem;
+}
+.main{
+    margin: auto;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    /* justify-items:center; */
+    
+    
+    
+}
+.main div{
+color: yellow;
+font-size:3rem ;
+text-align: center;
+/* margin-top: 200px; */
+/* width: 60%; */
+/* position:relative;
+top: 100px;
+left: 20%; */
+}
+
+.main button{
+
+text-align: center;
+/* position:relative;
+top: 150px;
+left: 45%; */
+border: 2px solid black;
+color:white ;
+background-color: red;
+
+padding: 1rem 1.9rem;
+font-size: 1.2rem;
+font-weight: 700;
+}
+
+
+header nav button{
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid black;
+    
+
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+footer img{
+    position: fixed;
+    bottom:4%;
+    left: 90%;
+    width: 10%;
+
+}

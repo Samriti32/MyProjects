@@ -1,0 +1,5 @@
+font type: Poppins
+
+background-color: #5955b3; (button and spantext)
+
+color: #3c2f60; (text color)

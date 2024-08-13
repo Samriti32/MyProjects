@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Photos/mainBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    background-color: aliceblue;
+    /* width: 100vh; */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 1rem 4rem;
+    border-bottom: 1.5px solid white;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-top: 7rem;
+    margin-left: 12rem;
+    gap: 2.5rem;
+    align-items: flex-start;
+
+}
+
+.main h1 {
+    color: white;
+    font-size: 5rem;
+
+}
+
+.main p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.main button {
+    border: transparent;
+    padding: 1.2rem 3rem;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.3rem;
+    background-color: rgb(93, 63, 246);
+
+}
+
+.logodiv {
+    margin-top: 250px;
+    border-radius: 2rem;
+    background-color: white;
+    display: flex;
+    gap: 4.8rem;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Best-estate h1 {
+
+    font-size: 4rem;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container .mixto {
+    width: 350px;
+    height: 450px;
+    margin: 1rem;
+    padding: 2rem;
+box-sizing: content-box;}
+
+    .container .mixto img {
+        width: 350px;
+        height: 400px;
+    border-radius: 2rem;}
+
+    #cardone{
+        margin-top: -1rem;
+        box-sizing: content-box;
+    }
+    #cardthree{
+        margin-top: 3rem;
+        box-sizing: content-box;
+    }
+    #cardfour{
+        margin-top: 3rem;
+        box-sizing: content-box;
+    }
+    #cardsix{
+        margin-top: -1rem;
+    }
+    #cardseven{
+        margin-top: -1rem;
+    }
+    #cardnine{
+        margin-top: 2rem;
+    }
+   .Mixtodetails{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     gap: 3rem;
+     background-color: white;
+     margin-top:-3rem ;
+     position: relative;
+     padding: 2rem;
+     border-radius: 1rem;
+     width: 300px;
+     margin-left:2rem ;
+     margin-right: 2rem;
+    }
+    .Mixtodetails div span{
+        color:black;
+        font-size: 1.5rem;
+        font-weight: 550;
+    }
+    .Mixtodetails div p{
+        color: rgb(93, 63, 246);
+        font-size: 1.4rem;
+        font-weight: 550;
+    }
+
+    .Mixtodetails button {
+        border: transparent;
+        padding: 0.8rem 1.5rem;
+        border-radius: 25px;
+        color: white;
+        font-size: 1.3rem;
+        background-color: rgb(93, 63, 246);
+    
+    }
+    .right-feature{
+        display: flex;
+
+        align-items: center; 
+        justify-content: space-around;
+
+    }
+    .right-feature img{
+        width: 630px;
+    }
+    .right-feature .f1 img{
+        position: absolute;
+        width: 450px;
+        height: 420px;
+        border-radius: 30px;
+        top: 190rem;
+        left: 8rem;
+    }
+   .right-rf{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3rem;
+        padding: 2rem;
+        margin:3rem ;
+    }
+  .right-rf h1{
+        font-size: 5rem;
+        width: 600px;
+
+    }
+    .right-rf p{
+        font-size: 1.5rem;
+    }
+  .right-rf button{
+        border: transparent;
+        padding: 0.8rem 1.5rem;
+        border-radius: 25px;
+        color: white;
+        font-size: 1.3rem;
+        background-color: rgb(93, 63, 246);
+    }
+    
+    .left-feature{
+        display: flex;
+
+        align-items: center; 
+        justify-content: space-around;
+        
+        box-sizing: content-box;
+
+    }
+   .left-lf img{
+    width: 630px;
+   }
+   .left-lf .f1 img{
+    position: absolute;
+    top: 225rem;
+    right: 7.8rem;
+    width: 450px;
+    height: 420px;
+    border-radius: 30px;
+   }
+.sub{
+    background-color:  rgb(93, 63, 246);
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    padding: 3rem;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    color: white;
+}
+.sub h1{
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 2rem 6rem;
+    margin: auto;
+    text-align: center;
+}
+.sub p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem 6rem;
+    margin: auto;
+    text-align: center;
+}
+.mail-form{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   gap: 1rem;
+ 
+}
+.mail-form input{
+    border: transparent;
+    background-color: rgba(0, 0, 0, 0.118);
+    width: 25rem;
+    height: 4rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+   
+}
+.mail-form img{
+    position: absolute;
+    left: 28.2rem;
+    top: 285.3rem;
+}
+
+.mail-form button{
+    border: transparent;
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    color:  rgb(93, 63, 246);
+    font-size: 1.3rem;
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-left{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
+}
+.footer-left .fli img{
+ height: 55px;
+}
+.footer-left .socialm {
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.footer-left p{
+    font-size: 1.3rem;
+}
+.footer-right{
+    display: flex;
+    gap: 4rem;
+}
+.footer-right ul li{
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+   
+}
+.footer-right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-right ul h1{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.footer-right ul li a:hover{
+    font-size: 1.3rem;
+    background-color: rgb(93, 63, 246);
+    padding: 1rem;
+    border-radius: 10px;
+    color: aliceblue;
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+
+*{
+
+background-color: rgba(245, 249, 249, 0.808);
+color: rgb(13, 14, 14);
+
+}h1{
+    color:gray;
+}
+
+table{
+    background-color: rgba(236, 254, 173, 0.586);
+    text-align: center;
+    color:rgb(10, 11, 11);
+    padding: 4px;
+
+}
+td{
+    padding: 4px;
+}
+p{
+    background-color: rgb(252, 119, 63);
+    padding: 15px;
+    margin: 10ox;
+    font-weight: 600;
+}
+ul{
+    background-color: rgba(58, 240, 79, 0.681);
+}
+
+.daba{
+    color: red;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black ;
+    padding: 2px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top:25px ; */
+    
+
+    
+}
+
+.con{
+    display: flex;
+    justify-content: space-around;
+}

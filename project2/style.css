@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+
+body {
+    background-color: white;
+  
+}
+
+nav{
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    display: flex;
+}
+.right-main{
+    width: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 4rem;
+    gap:2rem;
+
+}
+.right-main h1{
+    font-size: 4.3rem;
+}
+.right-main p{
+    font-size: 1.2rem;
+    color: grey;
+}
+.right-main button{
+    font-size: 1.8rem;
+    background-color: rgb(39, 174, 100);
+    color: white;
+    padding: 1rem 2rem;
+    border:0px solid rgb(39, 174, 100); 
+    border-radius: 50px
+}
+.stimg img{
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    left: 300px;
+}
+.right-arrow img{
+    position: absolute;
+}
+.bottom-arrow img{
+    position: absolute;
+    left: 650px;
+    bottom: 240px;
+}
+
+.mouse img{
+    position: absolute;
+    left: 700px;
+    bottom: 180px;
+}
+.greenboximg img{
+position: absolute;
+width: 480px;
+right: 10px;
+top: 250px;
+}
+.yellowboximg img{
+    position: absolute;
+    width: 480px;
+    right: 0px;
+    top: 290px; 
+}
+.docimg img{
+    position: absolute;
+    height: 750px;
+    width: 550px;
+    right: 4px;
+    top: 80px;
+}

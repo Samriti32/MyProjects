@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #111827;
+    color: aliceblue;
+}
+header{
+    padding: 1rem;
+}
+.hamburger{
+    width: 1rem;
+    display: none;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;  
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover{
+    color: white;
+   
+    background-color: blueviolet;
+    border: 3px ;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+    border-radius: 10rem;
+
+}
+
+
+
+
+.top{
+    display: flex;
+    justify-content: center;
+
+}
+.waving-hand{
+   width: 1.8rem;
+}
+.hello-hand{
+    display: flex;
+}
+.top-left-sec{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+}
+.top-left-sec h3{
+    color: yellow;
+    opacity: 0.7;
+}
+.large{
+    font-size: 3rem;
+}
+.top-right-sec img{
+    width: 400px;
+    height:400px
+}
+
+.bottom{
+    margin: auto;
+    width:min-content;
+    display: grid;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows:repeat(2,1fr) ;
+    grid-template-columns:repeat(2,1fr) ;
+}  
+.bottom img{
+    width: 200px;
+} 
+figcaption{
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.heading {
+    text-align: center;
+    text-decoration:blue 4px underline;
+    text-underline-offset: 12px;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.footer-image img{
+    width: 1.5rem;
+}
+
+@media (max-width:565px){
+    header nav ul{
+        display: none;
+    } 
+    
+ 
+    .hamburger{
+        display: block;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        
+    }
+    .top-left-sec{
+        align-items: center;
+    }
+    .top-right-sec img{
+        width: 300px;
+        height:300px;
+        padding:1rem
+    } 
+    .heading {
+        text-align: center;
+        text-decoration:blue 10px underline;
+        text-underline-offset: 12px;
+    }
+    .bottom{
+        margin: auto;
+        width:min-content;
+        display: grid;
+        padding: 2rem;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows:repeat(1,1fr) ;
+        grid-template-columns:repeat(1,1fr) ;
+    }  
+}

@@ -1,0 +1,19 @@
+<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+font-family: 'Poppins', sans-serif;
+-----------------------------------------------------------------------------------------------------------------------
+=> background color of page:
+ 
+background-color: #edf1fd;
+
+--------------------------------------------------------------------------------------------------------------------
+=>Greenish color used in the CSS:
+
+background-color: rgb(18, 155, 155);
+
+=> text-color used in page:
+
+color: #424141;
